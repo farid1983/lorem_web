@@ -9,25 +9,31 @@
             margin-left: auto;
             margin-top: auto;
             font-family: sans-serif;
+            display: inline-block;
         }
 
         div#header {
+            float: left;
             width: 900px;
             height: 80px;
             background-color: #6D41BF;
         }
 
         h1#logo {
-            width: 900px;
+            /* width: 900px;
             height: 80px;
-            background-color: #6D41BF;
+            background-color: #6D41BF; */
+            float: left;
+            margin-left: 50;
         }
 
         div#menu {
             width: 400px;
             height: 50px;
-            background-color: yellow;
+            /* background-color: yellow; */
             float: left;
+            margin-left: 15;
+            margin-top: 15;
         }
 
         div#menu p {
@@ -69,7 +75,6 @@
             display: inline-block;
             text-align: center;
 
-
         }
 
         div#box2 {
@@ -79,7 +84,6 @@
             display: inline-block;
             text-align: center;
 
-
         }
     </style>
 
@@ -88,15 +92,15 @@
 <body>
     <div id="container">
         <div id="header">
-            <h1>EduHub</h1>
-        </div>
+            <h1 id="logo">EduHub</h1>
 
-        <div id="menu">
 
-            <p>Home</p>
-            <p>About</p>
-            <p>Contact</p>
+            <div id="menu">
 
+                <p>Home</p>
+                <p>About</p>
+                <p>Contact</p>
+            </div>
         </div>
 
         <div id="sectionBanner">
